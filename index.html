@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoCalculadora: Sustentabilidade em Números</title>
+    <title>EcoCalculadora: Os Números da Sustentabilidade</title>
     <!-- Inclui Tailwind CSS para estilização moderna e responsiva -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -165,17 +165,25 @@
             text-decoration: underline; /* Underline on hover */
             background-color: #E0F2F7; /* Light background on hover */
         }
+        /* Estilo para o título com gradiente de texto */
+        .gradient-text {
+            background-image: linear-gradient(to right, #059669, #0EA5E9); /* Verde Esmeralda para Azul Ciano */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
     </style>
 </head>
 <body class="text-gray-800 min-h-screen p-4 sm:p-8">
 
     <!-- Cabeçalho Principal do Site com Quadro e Centralização -->
-    <header class="max-w-4xl mx-auto mb-16 bg-white p-8 rounded-3xl shadow-2xl border-4 border-green-300 animate-fade-in-scale">
+    <header class="max-w-4xl mx-auto mb-16 bg-white p-4 sm:p-8 rounded-3xl shadow-2xl border-4 border-green-300 animate-fade-in-scale">
         <div class="text-center">
-            <h1 class="text-5xl sm:text-6xl font-extrabold text-emerald-700 mb-4 tracking-tight leading-tight">
-                EcoCalculadora: Sustentabilidade em Números
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold mb-4 gradient-text drop-shadow-md">
+                EcoCalculadora: Os Números da Sustentabilidade
             </h1>
-            <p class="text-xl sm:text-2xl text-gray-700 max-w-3xl mx-auto mt-4 font-semibold">
+            <p class="text-lg sm:text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto mt-4 font-semibold">
                 Plataforma de visualização de dados e conscientização sobre a sustentabilidade do papel.
             </p>
         </div>
@@ -352,15 +360,15 @@
                 <p class="mt-4 font-semibold text-gray-800">É super fácil de usar e nos mostra em tempo real como pequenas ações fazem uma GRANDE diferença para o planeta!</p>
             </div>
             <div class="flex flex-col justify-center items-center p-4">
-                <!-- IMAGEM DO APLICATIVO ECOCALCULADORA -->
-                <img src="https://i.imgur.com/GBMLxDi.jpeg" alt="Screenshot do Aplicativo EcoCalculadora" class="rounded-2xl shadow-xl border-4 border-green-300 transform hover:scale-105 transition-transform duration-300 mb-6 max-w-xs h-auto">
+                <!-- IMAGEM DO APLICATIVO ECOCALCULADORA - TAMANHO AJUSTADO -->
+                <img src="https://i.imgur.com/GBMLxDi.jpeg" alt="Screenshot do Aplicativo EcoCalculadora" class="rounded-2xl shadow-xl border-4 border-green-300 transform hover:scale-105 transition-transform duration-300 mb-6 w-56 h-auto">
                 <p class="text-center text-lg font-semibold text-gray-700 mb-4">
                     Aponte a câmera do seu celular para escanear!
                 </p>
                 <!-- QR CODE IMAGE - ATUALIZADO COM O NOVO LINK -->
                 <img src="https://i.imgur.com/DOXS01f.jpeg" alt="QR Code para baixar o EcoCalculadora App" class="rounded-lg shadow-md border-2 border-gray-200 w-40 h-40 sm:w-48 sm:h-48 object-contain mb-6">
 
-                <!-- NOVO BOTÃO DE DOWNLOAD DO APP -->
+                <!-- NOVO BOTÃO DE DOWNLOAD DO APP - MANTIDO NO MESMO LOCAL LÓGICO -->
                 <a href="https://drive.google.com/file/d/1fvcgp4KXS2KgttirpDVd-Rq2QAs060j-/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors duration-300 text-lg">
                     Baixar o App EcoCalculadora Agora!
                 </a>
